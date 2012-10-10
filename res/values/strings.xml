@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SportSquare</string>
+    <string name="schema_label">Mijn Schema</string>
+    <string name="main_title">Android SportSquare</string>
+    <string name="locatie_label">Locaties</string>
+    <string name="vrienden_label">Mijn vrienden</string>
+    <string name="exit_label">Exit</string>
+    <string name="menu_refresh">Update</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_zaal_list">List</string>
+    <string name="zaal_list_label">Zaal list</string>
+    <string name="menu_zaal_map">Google Maps</string>
+    <string name="menu_about">Over deze Applicatie</string>
+    <string name="hello">Hello World, Todo!</string>
+	<string name="no_todos">Geen schema gevonden</string>
+	<string name="menu_insert">Add Item</string>
+	<string name="menu_delete">Delete Schema</string>
+	<string name="schema_summary">Summary</string>
+	<string name="schema_description">Delete Schema</string>
+	<string name="schema_edit_summary">Summary</string>
+	<string name="schema_edit_description">Omschrijving</string>
+	<string name="schema_edit_confirm">Confirm</string>
+	<string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+    <string name="accuracy">Accuracy : </string>
+    <string name="provider">Provider : </string>
+   	<string name="help_tekst_schema">Om u training programma te bekijken. Als eerste kunt u een dag kiezen en vervolgens het trainingsprogramma</string>
+   	<string name="help_tekst_zalen">Een overzicht van de verschillende fitnesscentra waar u ingesgeschreven bent. Deze worden getoond als u zich in de buurt bevindt. U krijgt het adres te zien en het aantal huidige bezoekers. 
+Vervolgens kunt u altijd vernieuwen om de beschikbare centra te herladen. Onder menu > maps kunt u de locaties op de kaart bekijken. </string>
+   	<string name="help_tekst_vrienden">Een overzicht van u fitnessbuddies en wanneer ze voor het laatst getraind hebben.</string>
+   	<string name="over_tekst1">Gemaakt door:</string>
+   	<string name="over_tekst2">Ismael Moukafih</string>
+   	<string name="over_tekst3">Esdras Terrero</string>
+   	<string name="over_tekst4">Versie 1.0 | Android APK level 10</string>
+   	<string name="over_tekst5">Uitgebracht op 27-1-2012</string>
+   	<string name="over_tekst6">Copyright 2012 | All rights reserved</string>
+</resources>

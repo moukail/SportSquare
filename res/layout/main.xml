@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:background="@drawable/menu_bg"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/sportsquare_logo" />
+      <Button
+         android:id="@+id/schema_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/schema_label" />
+      <Button
+         android:id="@+id/list_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/locatie_label" />
+      <Button
+         android:id="@+id/vrienden_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/vrienden_label" />
+      <Button
+         android:id="@+id/exit_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/exit_label" />
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/vrienden_bg"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/listitem_bg" >
+        <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="50px"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/vriend_detail_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name: "
+            android:textColor="#363636"
+            
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personFirstName"
+            android:textColor="#363636"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/detail_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name: "
+            android:textColor="#363636"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personLastName"
+            android:textColor="#363636"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/detail_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last visit: "
+            android:textColor="#363636"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personLastVisit"
+            android:textColor="#363636"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/detail_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sportzaal: "
+            android:textColor="#363636"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personSportZaal"
+            android:textColor="#363636"
+        />
+    </LinearLayout>
+</LinearLayout>

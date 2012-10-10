@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.moukail.sportsquare.view"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:icon="@drawable/icon_ss"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:label="@string/app_name"
+            android:name="nl.moukail.sportsquare.view.Splash"
+			android:theme="@android:style/Theme.NoTitleBar">
+			<intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+               	<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".SportSquare"
+            android:label="@string/app_name">
+            <intent-filter >
+                <action android:name="com.google.app.splashy.CLEARSPLASH" />
+               	<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".MySchema"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TrainingOverzicht"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OpdrachtOverzicht"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".OpdrachtDetails"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".ZaalList"
+            android:icon="@drawable/zaal_icon_64"
+            android:label="@string/zaal_list_label">
+            
+        </activity>
+        <activity 
+            android:name=".MyMap"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            
+        </activity>
+        <activity 
+            android:name=".ZaalDetails"
+            android:label="Details">
+            
+        </activity>
+        <activity 
+            android:name=".MyVrienden"
+            android:label="@string/vrienden_label">
+            
+        </activity>
+        <activity 
+            android:name=".PersonDetails"
+            android:label="@string/vrienden_label">
+            
+        </activity>
+         <activity 
+            android:name=".Help"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">            
+        </activity>
+        <activity 
+            android:name=".About"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">            
+        </activity>
+        <uses-library android:name="com.google.android.maps"/>
+    </application>
+
+</manifest>

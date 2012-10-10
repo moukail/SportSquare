@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@drawable/menu_bg_land1"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="15dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center"
+      android:paddingLeft="20dip"
+      android:paddingRight="20dip">
+       <ImageView android:src="@drawable/sportsquare_logo" android:layout_height="wrap_content" android:layout_marginRight="6dip" android:id="@+id/logo" android:layout_width="wrap_content"></ImageView>
+      <TableLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:stretchColumns="*">
+         <TableRow>
+            <Button
+               android:id="@+id/schema_button"
+               android:text="@string/schema_label" />
+            <Button
+               android:id="@+id/list_button"
+               android:text="@string/locatie_label" />
+         </TableRow>
+         <TableRow>
+            <Button
+               android:id="@+id/vrienden_button"
+               android:text="@string/vrienden_label" />
+            <Button
+               android:id="@+id/exit_button"
+               android:text="@string/exit_label" />
+         </TableRow>
+      </TableLayout>
+   </LinearLayout>
+</LinearLayout>
